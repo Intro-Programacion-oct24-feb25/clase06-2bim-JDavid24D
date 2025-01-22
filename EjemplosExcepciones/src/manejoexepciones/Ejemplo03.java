@@ -14,10 +14,10 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         try{
             int valor1 = 10;
-            int valor2 = 0;
+            int valor2 = 5;
             int resultado = valor1 / valor2;
         
-            System.out.printf("Resultado %d", resultado);
+            System.out.printf("Resultado %d\n", resultado);
             
         }
         catch(ArithmeticException arithmeticException){
