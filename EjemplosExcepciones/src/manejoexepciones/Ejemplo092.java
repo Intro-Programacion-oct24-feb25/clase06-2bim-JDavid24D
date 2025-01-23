@@ -24,7 +24,7 @@ public class Ejemplo092 {
                 String pais = entrada.nextLine();
                 pais = pais.toLowerCase();
                 if (pais.startsWith("a") || pais.startsWith("e")
-                        || pais.startsWith("i") || pais.startsWith("o")
+                        || pais.startsWith("i") || pais.startsWith("o") 
                         || pais.startsWith("u")) {
                     throw new Exception("Empieza con vocal");
                 }
