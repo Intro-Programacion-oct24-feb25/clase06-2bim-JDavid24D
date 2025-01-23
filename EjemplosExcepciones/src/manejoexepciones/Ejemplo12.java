@@ -23,6 +23,7 @@ public class Ejemplo12 {
         números ingresados por teclado; el resultado de cada división debe ir 
         almacenandose en cada posición del arreglo. Considerar las excepciones
         posibles*/
+        
         for (int i = 0; i < valor; i++) {
             int num1 = 0;
             int num2 = 0;
